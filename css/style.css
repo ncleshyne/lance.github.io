@@ -1,6 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=OpenSans);
-@import url(https://fonts.googleapis.com/css?family=Lato);
 @font-face {
   font-family: vesterbro;
   src: url(../fonts/vesterbro.otf);
@@ -22,7 +20,12 @@ h2, h3, h4, h5 {
   color: #434242;
 
 }
-
+div.allow-tab {
+  white-space: pre; 
+	tab-size: 8; /*8 is default in css meaning it*/ 
+	-moz-tab-size: 8; /*gives them .5 their normal width */ 
+	-o-tab-size: 8; 
+}
 p {
   line-height: 2rem;
   color: #434242;
@@ -35,13 +38,16 @@ p {
     background: linear-gradient(90deg, rgba(96,79,111,1) 0%, rgba(68,101,148,1) 35%, rgba(241,151,163,1) 100%)!important; ########*/
 nav ul a,
 nav .brand-logo {
-  color: white;
+  color: #434242;
   font-family: "Montserrat", sans-serif;
+}
+nav a {
+  color: #434242;
 }
 
 nav {
   box-shadow: white;
-  background: #333;
+  background: white;
 }
 
 .brand-logo {
@@ -55,31 +61,18 @@ nav {
   opacity: 0!important;
 }
 nav.scrolled {
-  background: rgb(221,94,137);
-  background: linear-gradient(90deg, rgba(221,94,137,1) 23%, rgba(232,132,143,1) 46%, rgba(247,187,151,1) 100%)!important;
+  background-color: white;
   background-size: 400% 400%;
   opacity: 1;
   color: white!important;
+  
 }
+
 
 
 
 /*####### Landing page ########*/
 
-.landing-page {
-  margin-top: 165px;
-  color: #fff;
-}
- 
-.tagline {
-  color: white;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-align: center;
-  margin-top: 0;
-}
 .parallax-container {
   display: block;
   position: relative;
@@ -93,64 +86,59 @@ nav.scrolled {
   width: 100%;
 }
 
-
-/*### Profile ###*/
-.image {
-    text-align: center;
-    max-height: 246px;
-    border-radius: 50%;
+.cont-overlay {
+  display: block;
+  position: relative;
+  min-height: 540px;
+  line-height: 0;
+  height: auto;
+  background: rgb(0, 0, 0, 0.3);
+}
+.tagline, h1.landing-page{
+  color: white!important;
 }
 
-.profile {
-    letter-spacing: 1px;
-    line-height: 1.5em;
+
+/*### Services ###*/
+
+
+
+/*### Products ###*/
+#prod-container {
+  background: #f2f2f2 url("../images/down-arrow.png") no-repeat top center;
+}
+.prod-cont {
+  height: 300px;
+  display: block;
+  width: auto;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+.prod-text, p.prod-text {
+  background-color: #42bdc2!important;
+  color: white;
+  font-weight: bold;
+}
+#owl-demo .item img{
+  width: 100%;
+ 
 }
 
-.profile-header {
-    margin-top: 55px;
-}
-#profile-header {
-  font-family: vesterbro, sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  letter-spacing: 2px;
-  color: #434242;
-}
-#logo-header {
-    font-size: 2em;
-    font-family: vesterbro, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    letter-spacing: 2px;
-    color: white;
-  }
-#description {
-    color: #f197a3;
+
+#image-products {
+  height: 300px;
 }
 
-/*### Experiences ###*/
-#exp-container {
-  background: rgba(245, 181, 150, 0.3)!important;
-}
-
-ul.medtec:not(.browser-default)>li {
-  list-style-type: square;
-  margin-left: 50px;
-}
-
-div.allow-tab {
-  white-space: pre; 
-	tab-size: 8; /*8 is default in css meaning it*/ 
-	-moz-tab-size: 8; /*gives them .5 their normal width */ 
-	-o-tab-size: 8; 
-}
-
-.linkbutt {
-  margin-top: 10px;
-}
-.location-button, .linkbutt {
-  color: #f197a3;
-  font-size: 21px!important;
+/*### Location ###*/
+p.location-text, h2.location-text {
+  text-align: justify;
+  color: white!important;
 }
 /*### Mobile ###*/
 @media only screen and (max-width : 992px) {
