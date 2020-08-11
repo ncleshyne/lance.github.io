@@ -138,7 +138,7 @@ nav.scrolled {
 /*### Location ###*/
 p.location-text, h2.location-text {
   text-align: justify;
-  color: white!important;
+  
 }
 /*### Mobile ###*/
 @media only screen and (max-width : 992px) {
