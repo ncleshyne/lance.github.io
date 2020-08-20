@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!--Let browser know website is optimized for mobile-->
+  <head>
+    <title>Lance Service Center</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Lance Service Center" />	
@@ -10,214 +10,343 @@
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="14 days" />
     <link rel="shortcut icon" href="images/favicon.ico" />
-    <title>LANCE Services </title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <!-- Materialize core CSS -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection" />
-    <link rel="stylesheet" href="css/style.css"  media="screen,projection" />
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-</head>
-<body>
-    <!-- Navbar -->
-    <div class="navbar-fixed">
-        <nav id="navbar" role="navigation">
-            <div class="nav-wrapper container">
-                <a id="logo-container" href="#" class="brand-logo"><img src="images/logo.png" style="margin-top: -1px;width: 98px;height: 103px;"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#index-banner" class="prof">Home</a></li>
-                    <li><a href="#services" class="services">Services</a></li>
-                    <li><a href="#products" class="products">Products</a></li>
-                    <li><a href="#location" class="location">Location</a></li>
-                    <li><a href="#contact" class="contact">Contact Us</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Dropdown Structure -->
-        <ul id="mobile-demo" class="sidenav">
-            <li><a href="#index-banner" class="prof">Home</a></li>
-            <li><a href="#services" class="services">Services</a></li>
-            <li><a href="#products" class="products">Products</a></li>
-            <li><a href="#location" class="location">Location</a></li>
-            <li><a href="#contact" class="contact">Contact Us</a></li>
-        </ul>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="jjtujM6h"></script>
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
     </div>
-    <!-- Slider -->
-    <!--  landing page  -->
-  
-    <div id="index-banner" class="parallax-container cont-overlay">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <br><br>
-                <h1 class="header left landing-page">Welcome to Lance Service Center</h1>
-                <br>
-                <div class="row left">
-                    <h5 class="header col s12 tagline"><i>Contact us now!</i></h5>
-                </div>
-                <div class="row center">
-                    <a href="#services" class="scroll-down" address="true"></a>
-                </div>
-                <br><br>
-            </div>
+  </div>
+
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
-        <div class="parallax"><img src="images/lance.jpg" alt="Unsplashed background img 1"></div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
     </div>
+   
+   
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
 
-  
-    <!-- end Slider -->
-    <!--  services  -->
-    <div class="container" id="services">
-        <div class="section">
-            <div class="row center profile-header">
-                <h3 class="header col s12" id="profile-header">We offer these services:</h3>
-            </div>
-
-            <!---Description-->
-            <div class="row center">
-                <div class="col s12 m4">
-                    <ul>
-                        <li>Centralized Aircon</li>
-                        <li>Ice Maker</li>
-                        <li>Package Type Aircon</li>
-                        <li>Window Type Aircon</li>
-                        <li>Refrigeration</li>
-                    </ul>
-                </div>
-
-                <div class="col s12 m4">
-                    <ul>
-                        <li>Freezer</li>
-                        <li>Installation</li>
-                        <li>Repair</li>
-                        <li>Servicing</li>
-                        <li>Freon Charging</li>
-                    </ul>
-                </div>
-
-                <div class="col s12 m4">
-                    <ul>
-                        <li>Maintenance</li>
-                        <li>Exhaust Ducting Preventive Maintenance & Services</li>
-                        <li>Exhaust Ducting Fabrication & Installation</li>
-                        <li>Kitchen Equipment Fabrication & Installation</li>
-                        <li>Reach in Chiller & Freezer Preventive Maintenance</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--  products  -->
-    <div id="prod-container">
-        <div class="container" id="products">
-            <div class="section">
-                <div class="row center profile-header">
-                    <h3 class="header col s12" id="profile-header">Products</h3>
-                </div>
-                
-                <div id="owl-demo">
+      <div class="container">
+        <div class="row align-items-center">
           
-                    <div class="card-panel lighten-5 item prod-cont">
-                        <div>
-                            <img src="images/d-compact.png" alt="Owl Image" class="image-products">
-                        </div>
-                        <div class="prod-text">
-                            <p class="prod-text">D-Compact Series</p>
-                        </div>
-                    </div>
-                    <div class="card-panel lighten-5 item prod-cont">
-                        <div>
-                            <img src="images/cooling-king.png" alt="Owl Image" class="image-products">
-                        </div>
-                        <div class="prod-text">
-                            <p class="prod-text">Cooling King Series</p>
-                        </div>
-                    </div>
-                    <div class="card-panel lighten-5 item prod-cont">
-                        <div>
-                            <img src="images/d-smart.png" alt="Owl Image" class="image-products">
-                        </div>
-                        <div class="prod-text">
-                            <p class="prod-text">D-Smart Series</p>
-                        </div>
-                    </div>
-                    <div class="card-panel lighten-5 item prod-cont">
-                        <div>
-                            <img src="images/d-smart-king.png" alt="Owl Image" class="image-products">
-                        </div>
-                        <div class="prod-text">
-                            <p class="prod-text">D-Smart King Series</p>
-                        </div>
-                    </div>
-                    <div class="card-panel lighten-5 item prod-cont">
-                        <div>
-                            <img src="images/cassette-type.png" alt="Owl Image" class="image-products">
-                        </div>
-                        <div class="prod-text">
-                            <p class="prod-text">Cassette Type</p>
-                        </div>
-                    </div>
-                    <div class="card-panel lighten-5 item prod-cont">
-                        <div>
-                            <img src="images/inverter-floor-standing.png" alt="Owl Image" class="image-products">
-                        </div>
-                        <div class="prod-text">
-                            <p class="prod-text">Floor Standing Inverter</p>
-                        </div>
-                    </div>
-                    <div class="card-panel lighten-5 item prod-cont">
-                        <div>
-                            <img src="images/non-inverter-floor-standing-non-inv.png" alt="Owl Image" class="image-products">
-                        </div>
-                        <div class="prod-text">
-                            <p class="prod-text">Floor Standing Non-inverter</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="col-6 col-md-3 col-xl-4  d-block">
+            <h1 class="mb-0 site-logo"><a id="logo-container" href="#" class="brand-logo"><img src="images/logo.png" style="margin-top: -1px;width: 98px;height: 103px;"></a></h1>
+          </div>
+
+          <div class="col-12 col-md-9 col-xl-8 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#features-section" class="nav-link">Services</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#locations" class="nav-link">Locations</a></li>
+                <li><a href="#contacts" class="nav-link">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
         </div>
-    </div>
-    <!--  products-end  -->
-
-    <!--  location  -->
-    <div class="container" id="location">
-        <div class="section">
-            <div class="row center profile-header">
-                <h3 class="header col s12" id="profile-header">Our Locations:</h3>
-            </div>
-
-
-            <div class="row center">
-                <div class="col s12 m6">
-                    <p class="location-text">
-                        <strong>Iligan branch:</strong><br>
-                        Cor. Traffic Light, Tambo Hi-way, Iligan City <br>
-                        Tel. # (063) 225-0448  |    (063) 222-1395
-                        Globe: 0916-5875317     Sun: 0922-8929896
-                        Email: <i>lance_refrigeration@yahoo.com</i><br>
-                        <strong>Cagayan de Oro branch:</strong><br>
-                        Door #4 Lopez bldg., Calamansi St., Carmen, CDO <br>
-                        Tel. # (088) 858-6568
-                        Globe: 0916-5875317     Sun: 0977-1000427
-                    </p>
-                </div>
-
-                <div class="col s12 m6">
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1UZAXaa4ZPKiN0E-TnN84XMS2arJXxb_P&hl=en" width="440" height="280"></iframe>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
+      </div>
+      
+    </header>
     
 
-    <!--JavaScript at end of body for optimized loading -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/init.js"></script>
-</body>
+    <div class="site-blocks-cover" style="overflow: hidden;">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
+            
+            <img src="images/aircon.png" alt="Image" class="img-fluid img-absolute">
+
+            <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-6 mr-auto">
+                <h1>Welcome to Lance Service Center</h1>
+                <p class="mb-5">We are a Refrigeration and Airconditioning Service Center based in Iligan and Cagayan de Oro City.</p>
+                <div>
+                  <a href="https://www.facebook.com/lancecenter/" target="_blank" class="btn btn-primary mr-2 mb-2">Contact Us</a>
+                </div>
+              </div>
+              
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    <div class="site-section" id="features-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Services Offered</h2>
+            <p class="lead">We offer a wide range of services to cater to your needs.</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-shopping_basket"></span></span>
+              </div>
+              <div>
+                <h3></h3>
+                <p>Centralized aircon, Package type Aircon, Window type aircon, Refrigeration</p>
+                <p><a href="https://www.facebook.com/lancecenter/">Learn More</a></p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-shopping_basket"></span></span>
+              </div>
+              <div>
+                <h3></h3>
+                <p>Ice Maker, Freezer, Installation, Repair, Servicing, Freon Charging</p>
+                <p><a href="https://www.facebook.com/lancecenter/">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up"  data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-shopping_basket"></span></span>
+              </div>
+              <div>
+                <h3></h3>
+                <p>Exhaust Ducting Preventive Maintenance, Fabrication, and Installation</p>
+                <p><a href="https://www.facebook.com/lancecenter/">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-settings_backup_restore"></span></span>
+              </div>
+              <div>
+                <h3></h3>
+                <p>Kitchen Equipment Fabrication & Installation</p>
+                <p><a href="https://www.facebook.com/lancecenter/">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-settings_backup_restore"></span></span>
+              </div>
+              <div>
+                <h3></h3>
+                <p>Reach in Chiller & Freezer Preventive Maintenance</p>
+                <p><a href="https://www.facebook.com/lancecenter/">Learn More</a></p>
+              </div>
+            </div>
+
+            
+          </div>
+          
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-settings_backup_restore"></span></span>
+              </div>
+              <div>
+                <h3></h3>
+                <p>Airconditioner and Refrigeration cleaning and Maintenance</p>
+                <p><a href="https://www.facebook.com/lancecenter/">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="feature-big" id="products">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Products</h2>
+            <p class="lead">We offer a wide variety of brands such as <i>Daikin, General Royal, Hitachi, and Xtreme</i>. Below are some examples.</p>
+          </div>
+        </div>
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7" data-aos="fade-right">
+            <img src="images/d-compact.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Daikin D-compact Series</h2>
+            <p class="mb-4">Up to five selectable fan speeds, to enjoy precise comfort cooling at the fan speed that you desire. Inverter system ensures faster cooling with significant energy saving. The outdoor unit has a height of 420mm, which fits perfectly into existing built-in slabs for window-type airconditioners.</p>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+            <img src="images/cooling-king.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Daikin Cooling King Series</h2>
+            <p class="mb-4">Cools the room faster. Gradual increase of set temperature for a comfortable environment. Sound level reduction from 48dBA to 23 dBA compared to window-type aircons.</p>
+          </div>
+        </div>
+
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7" data-aos="fade-right">
+            <img src="images/d-smart.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Daikin D-Smart Series</h2>
+            <p class="mb-4">D-smart King series is also available. Operates at 150 to 264 V and can withstand 0 to 440 V. Inverter system maintains consistent temperature for comfort all the time, especially when sleeping. Sound level from 51 dBA to only 21 dBA compared to window-type aircons.</p>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+            <img src="images/cassette-type.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Daikin Casette Type Inverter</h2>
+            <p class="mb-4">Non-inverter type also available. Selectable Airflow Pattern: 360 Airflow/Circulation Airflow and Individual Airflow Direction Control. Suitable for high ceilings with two selectable temperature-sensors and 3 discharge modes.</p>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+            <img src="images/inverter-floor-standing.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Daikin Floor Standing Inverter</h2>
+            <p class="mb-4">Non-inverter type also available. Daikin’s floor standing air conditioning units are compact and ideal for anyone wanting the convenience and access of positioning their unit closer to the floor. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section bg-light" id="locations">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Our Locations</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <iframe style="width: 100%; height: 100%;" src="https://www.google.com/maps/d/embed?mid=1UZAXaa4ZPKiN0E-TnN84XMS2arJXxb_P&hl=en"></iframe>
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4 h3 font-weight-bold" style="margin-top: 10px;">Contact Us</h2>
+            <p class="mb-4" id="contacts">
+              <strong>Iligan branch:</strong><br>
+                      Cor. Traffic Light, Tambo Hi-way, Iligan City <br>
+                      Tel. # (063) 225-0448  |    (063) 222-1395
+                      Globe: 0916-5875317     Sun: 0922-8929896
+                      Email: <i>lance_refrigeration@yahoo.com</i><br>
+                      <strong>Cagayan de Oro branch:</strong><br>
+                      Door #4 Lopez bldg., Calamansi St., Carmen, CDO <br>
+                      Tel. # (088) 858-6568
+                      Globe: 0916-5875317     Sun: 0977-1000427
+            </p>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>
+                Like us on facebook
+                <div class="fb-like" data-href="https://www.facebook.com/lancecenter/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+              </li>
+              <li>
+                Follow us on LinkedIn
+                <a href="https://www.linkedin.com/company/lance-service-center/" target="_blank" class="p-3"><span class="icon-linkedin"></span></a>
+              </li>
+            </ul>
+            <p><a href="https://www.facebook.com/lancecenter/" class="btn btn-primary">Learn More</a></p>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>  
+
+    
+    <div class="footer py-5 text-center">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+              <a href="https://www.facebook.com/lancecenter/" class="p-3"><span class="icon-facebook"></span></a>
+              <a href="https://www.linkedin.com/company/lance-service-center/" class="p-3"><span class="icon-linkedin"></span></a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+  
+  </body>
 </html>
